@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    border: 3px solid;
+    width: 1000px;
+    height: 320px;
+    border-radius: 25px;
+}
+#gameDisplay{
+    background-color: lightskyblue;
+    height: 320px;
+    border-radius: 23px;
+
+}
+#tittle{
+    font-family: 'Pixelify Sans', solid;
+    font-size: 45px;
+}
+
+#userText{
+    font-family:'Pixelify Sans', solid;
+    color: red;
+    text-decoration: underline;
+    position: absolute;
+    left: 450px;
+    margin-top: 60px;
+}
+#machineText{
+    font-family: 'Pixelify Sans', solid;
+    color: rgb(4, 0, 255);
+    text-decoration: underline;
+    position: absolute;
+    right: 465px;
+    margin-top: 60px;
+}
+#battleText{
+    font-family: 'Pixelify Sans', solid;
+    margin-top: 110px;
+}
+
+.choicesBtn {
+    border-radius: 25px;
+    border: 2px solid;
+    font-family: 'Pixelify Sans', solid;
+    width: 125px;
+    height: 35px;
+    margin-top: 5px;
+}
+#btnContainer{
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 3px solid;
+    width: 200px;
+    height: 125px;
+    position: inherit;
+    margin-left: 400px;
+    background-color: bisque;
+}
+
+
+@media screen and (max-width: 2000px) {
+    #userText{
+        margin-left: 60px;
+        top: 400px;
+    }
+
+    #machineText {
+        margin-right: 36px;
+        top: 400px;
+    }
+
+    .choicesBtn {
+        width: 100px;
+        height: 30px;
+        margin-top: 6px;
+    }
+
+    #btnContainer {
+        width: 200px;
+        height: 115px;
+    }
+    #battleText{
+        font-family: 'Pixelify Sans', solid;
+        margin-top: 110px;
+    }
+}
